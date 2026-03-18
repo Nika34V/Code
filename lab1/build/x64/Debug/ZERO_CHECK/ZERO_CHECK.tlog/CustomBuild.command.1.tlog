@@ -1,0 +1,10 @@
+^C:\USERS\NIKAV\DESKTOP\PP\PP\LAB1\BUILD\CMAKEFILES\0F9F99F2AB285999940FD7390D35FE4E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nikav/Desktop/PP/PP/lab1 -BC:/Users/nikav/Desktop/PP/PP/lab1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/nikav/Desktop/PP/PP/lab1/build/MatrixMultiplication.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
