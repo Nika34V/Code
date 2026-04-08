@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\nikav\Desktop\PP\PP\lab1\matrix_mult.cpp">
+    <ClCompile Include="C:\Users\nikav\Desktop\PP\Code\lab1\matrix_mult.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\nikav\Desktop\PP\PP\lab1\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\nikav\Desktop\PP\Code\lab1\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{7372CC24-E930-37BA-ACB0-3C6410F84FD1}</UniqueIdentifier>
+      <UniqueIdentifier>{8D0FD3C1-371E-3C33-BEAE-1DF263AC5AA7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

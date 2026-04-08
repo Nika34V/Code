@@ -1,12 +1,12 @@
-^C:\USERS\NIKAV\DESKTOP\PP\PP\LAB1\BUILD\CMAKEFILES\0F9F99F2AB285999940FD7390D35FE4E\VERIFY.RULE
+^C:\USERS\NIKAV\DESKTOP\PP\CODE\LAB1\BUILD\CMAKEFILES\8D09117488168CF65E87E74D45DE70EE\VERIFY.RULE
 setlocal
-cd C:\Users\nikav\Desktop\PP\PP\lab1\build
+cd C:\Users\nikav\Desktop\PP\Code\lab1\build\Debug
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\nikav\Desktop\PP\PP\lab1\build\Debug\matrix_mult.exe -r 5 results.txt
+C:\Users\nikav\Desktop\PP\Code\lab1\build\Debug\matrix_mult.exe -r 5 results.txt
 if %errorlevel% neq 0 goto :cmEnd
-python C:/Users/nikav/Desktop/PP/PP/lab1/verify_results.py C:/Users/nikav/Desktop/PP/PP/lab1/build/matrix_A.txt C:/Users/nikav/Desktop/PP/PP/lab1/build/matrix_B.txt C:/Users/nikav/Desktop/PP/PP/lab1/build/matrix_C.txt
+python C:/Users/nikav/Desktop/PP/Code/lab1/verify_results.py C:/Users/nikav/Desktop/PP/Code/lab1/build/Debug/matrix_A.txt C:/Users/nikav/Desktop/PP/Code/lab1/build/Debug/matrix_B.txt C:/Users/nikav/Desktop/PP/Code/lab1/build/Debug/matrix_C.txt
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -14,9 +14,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\NIKAV\DESKTOP\PP\PP\LAB1\CMAKELISTS.TXT
+^C:\USERS\NIKAV\DESKTOP\PP\CODE\LAB1\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nikav/Desktop/PP/PP/lab1 -BC:/Users/nikav/Desktop/PP/PP/lab1/build --check-stamp-file C:/Users/nikav/Desktop/PP/PP/lab1/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nikav/Desktop/PP/Code/lab1 -BC:/Users/nikav/Desktop/PP/Code/lab1/build --check-stamp-file C:/Users/nikav/Desktop/PP/Code/lab1/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

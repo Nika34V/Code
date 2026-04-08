@@ -1,5 +1,5 @@
-C:/Users/nikav/Desktop/PP/PP/lab1/build/CMakeFiles/matrix_mult.dir
-C:/Users/nikav/Desktop/PP/PP/lab1/build/CMakeFiles/run.dir
-C:/Users/nikav/Desktop/PP/PP/lab1/build/CMakeFiles/verify.dir
-C:/Users/nikav/Desktop/PP/PP/lab1/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/nikav/Desktop/PP/PP/lab1/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/nikav/Desktop/PP/Code/lab1/build/CMakeFiles/matrix_mult.dir
+C:/Users/nikav/Desktop/PP/Code/lab1/build/CMakeFiles/run.dir
+C:/Users/nikav/Desktop/PP/Code/lab1/build/CMakeFiles/verify.dir
+C:/Users/nikav/Desktop/PP/Code/lab1/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/nikav/Desktop/PP/Code/lab1/build/CMakeFiles/ZERO_CHECK.dir
