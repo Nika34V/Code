@@ -1,0 +1,4 @@
+/Users/mera/Desktop/mylove/lab2/build/CMakeFiles/matrix_mult_omp.dir
+/Users/mera/Desktop/mylove/lab2/build/CMakeFiles/perf_test_omp.dir
+/Users/mera/Desktop/mylove/lab2/build/CMakeFiles/edit_cache.dir
+/Users/mera/Desktop/mylove/lab2/build/CMakeFiles/rebuild_cache.dir
